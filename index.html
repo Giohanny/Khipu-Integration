@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> 🌸Prueba Técnica - Giohanny</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<script src="fetchAPI.js"></script>
+<!-- <script src="https://js.khipu.com/v1/kws.js"></script> -->
+<script>
+  window.onload = () => {
+    const inputs = document.querySelectorAll('input');
+    inputs.forEach(input => input.value = '');
+  };
+</script>
+
+<div id="loadingModal" style="display: none;">
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <img src="https://i.ibb.co/ccYcPw0B/Animation-1748330000129-1.gif" alt="Cargando..." style="width: 10vh">
+      <p>Procesando tu pago...</p>
+    </div>
+  </div>
+</div>
+  
+<body>
+
+  <div class="form-container">
+    <div id="khipu-web-root"></div>
+
+    <h2 style="color: rgb(133 40 195); margin: 2vh 0vh;font-weight: 600;">Realizar Pago</h2>
+    <div>Donación Caritas Felices</div>
+
+    <div style="text-align: center;">
+      <img style="margin: 3vh; width: 70%; border-radius: 8px;" src="https://i.pinimg.com/736x/f5/30/bc/f530bc00471830befb8c7548aeff562d.jpg">
+    </div>
+    <div>
+      <img style="width: 18vh; margin-bottom: 2vh;" src="https://s3.amazonaws.com/static.khipu.com/buttons/chile/2024/banks-200x75.svg" alt="110x50-tu-banco">
+    </div>
+
+    <label>Monto a donar (CLP):</label>
+    <div class="input-with-flag">
+      <img src="https://flagcdn.com/w40/cl.png">
+      <input id="amount" autofocus min="1" step="1" maxlength="4" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+    </div>
+    <div id="amountError" class="error"></div>
+
+    <label>Mensaje:</label>
+    <input id="subject" type="text" maxlength="255">
+    <div id="subjectError" class="error"></div>
+
+
+    <button id="pay-button" onclick="realizarPago()">Pagar con Khipu</button>
+  </div>
+</body>
+</html>
