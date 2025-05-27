@@ -3,11 +3,11 @@
 Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khipu.com/openapi/es/v1/instant-payment/openapi/overview/) en modo desarrollador
 
 ## 🔨 Configuración previa
-1. Creación de cuenta de desarrollador en Khipu Developers
+1. Creación de cuenta de desarrollador en Khipu
 2. Creación de API Key
 
 <p align="center">
-  <img src="./evidenciaImagenes/API key.png" height="400" />
+  <img src="./evidenciaImagenes/API key.png" height="430" />
 </p>
 <p align="center"><em>Creación de API Key en la plataforma de Khipu</em></p>
 
