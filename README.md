@@ -7,8 +7,7 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 2. Creación de API Key
 
 <p align="center">
-  <img src="./evidenciaImagenes/API key.png" height="250" />
-  <figcaption><em>Creación de API Key</em></figcaption>
+  <img src="./evidenciaImagenes/API key.png" height="400" />
 </p>
 
 ## 🚀 Pasos para la integración
@@ -16,10 +15,9 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 
 2. Creación de pago con [API create payment](https://docs.khipu.com/openapi/es/v1/instant-payment/openapi/operation/postPayment/). Fetch al API con Javascript `https://payment-api.khipu.com/v3/payments`
 
-<figure style="display: flex; flex-direction: column; align-items: center;">
+<p align="center">
   <img src="./evidenciaImagenes/verificacionPostman.PNG" height="400"/>
-  <figcaption><em>Verificación de API en Postman</em></figcaption>
-</figure>
+</p>
 
 
 3. Llamado de la url de Khipu para hacer las transacciones. Se encuentra en el parámetro `payment_url`
