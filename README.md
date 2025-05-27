@@ -6,10 +6,21 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 1. Creación de cuenta de desarrollador en Khipu Developers
 2. Creación de API Key
 
+<figure style="text-align: center;">
+  <img src="./evidenciaImagenes/API key.png" height="250" />
+  <figcaption><em>Creación de API Key</em></figcaption>
+</figure>
+
 ## 🚀 Pasos para la integración
 1. Simulación del sitio de compra. Maqueteado en HTML y CSS
 
 2. Creación de pago con [API create payment](https://docs.khipu.com/openapi/es/v1/instant-payment/openapi/operation/postPayment/). Fetch al API con Javascript `https://payment-api.khipu.com/v3/payments`
+
+<figure style="text-align: center;">
+  <img src="./evidenciaImagenes/verificacionPostman.PNG" height="250" />
+  <figcaption><em>Verificación de API en Postman</em></figcaption>
+</figure>
+
 
 3. Llamado de la url de Khipu para hacer las transacciones. Se encuentra en el parámetro `payment_url`
 
@@ -47,11 +58,11 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 | :five: Transferencia realizada  | :six: Pago Verificado por Khipu |
 | :-- |:--|
 | <img src="./evidenciaImagenes/imagen 55.png" />    | <img src="./evidenciaImagenes/imagen 66.png" />   |
-| *Tener en cuenta el id de la transacción* | *Corroborar que se valide con el mismo id* |
+| *Tener en cuenta el código de la transacción* | *Corroborar que se valide con el mismo código* |
 
 
 | :seven: Visualizar Cobro en dashboard   | :eight: Revisar correo del pago |
 | :-- |:--|
 | <img src="./evidenciaImagenes/imagen 77.png" />    | <img src="./evidenciaImagenes/imagen 88.png" />   |
-| *Bola verde para transacciones exitosas* | *Verificar id de la transacción* |
+| *Círculo verde para transacciones exitosas* | *Verificar código de la transacción* |
 
