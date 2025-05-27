@@ -34,24 +34,24 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 
 | :one: Simular tienda virtual  | :two: Agregar los campos |
 | :-- |:--|
-| <img src="./evidenciaImagenes/imagen 1.PNG" />    | <img src="./evidenciaImagenes/imagen 22.PNG" />   |
+| <img src="./evidenciaImagenes/imagen 1.png" />    | <img src="./evidenciaImagenes/imagen 22.png" />   |
 | *Realizar maqueteado de prueba con HTML y CSS* | *Llenar los campos obligatorios* |
 
 
 | :three: Seleccionar Banco  | :four: Ingresar con RUT |
 | :-- |:--|
-| <img src="./evidenciaImagenes/imagen 33.PNG" />    | <img src="./evidenciaImagenes/imagen 4.PNG" />   |
+| <img src="./evidenciaImagenes/imagen 33.png" />    | <img src="./evidenciaImagenes/imagen 4.png" />   |
 | *Para modo desarrollador seleccionar DemoBank* | *Usar RUT ficticio* |
 
 
 | :five: Transferencia realizada  | :six: Pago Verificado por Khipu |
 | :-- |:--|
-| <img src="./evidenciaImagenes/imagen 55.PNG" />    | <img src="./evidenciaImagenes/imagen 66.PNG" />   |
+| <img src="./evidenciaImagenes/imagen 55.png" />    | <img src="./evidenciaImagenes/imagen 66.png" />   |
 | *Tener en cuenta el id de la transacción* | *Corroborar que se valide con el mismo id* |
 
 
 | :seven: Visualizar Cobro en dashboard   | :eight: Revisar correo del pago |
 | :-- |:--|
-| <img src="./evidenciaImagenes/imagen 77.PNG" />    | <img src="./evidenciaImagenes/imagen 88.PNG" />   |
+| <img src="./evidenciaImagenes/imagen 77.png" />    | <img src="./evidenciaImagenes/imagen 88.png" />   |
 | *Bola verde para transacciones exitosas* | *Verificar id de la transacción* |
 
