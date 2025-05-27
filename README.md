@@ -1,12 +1,12 @@
-# Khipu Integration :money_with_wings:
+# Khipu Integration 💸
 
 Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khipu.com/openapi/es/v1/instant-payment/openapi/overview/) en modo desarrollador
 
-## Configuración previa
+## 🔨 Configuración previa
 1. Creación de cuenta de desarrollador en Khipu Developers
 2. Creación de API Key
 
-## Pasos para la integración
+## 🚀 Pasos para la integración
 1. Simulación del sitio de compra. Maqueteado en HTML y CSS
 
 2. Creación de pago con [API create payment](https://docs.khipu.com/openapi/es/v1/instant-payment/openapi/operation/postPayment/). Fetch al API con Javascript `https://payment-api.khipu.com/v3/payments`
@@ -15,7 +15,7 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 
 4. Visualización los cobros en el dashboard en modo desarrollador https://khipu.com/dashboard/bills
 
-## Uso de este repositorio
+## 🎯 Uso de este repositorio
 
 1. Clonar este repositorio
 2. Abrir el archivo `index.html` en el navegador
@@ -25,22 +25,22 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 ├── index.html          # Maqueteado de tienda virtual
 ├── fetchAPI.js         # Llamado al API Khipu
 ├── style.css           # Estilos CSS
-├── evidenciaImagenes   # Imagenes de apoyo 
+├── evidenciaImagenes   # Imagenes de apoyo
 └── README.md          
 ```
 
-## Evidencia de integración exitosa
+## 📸 Evidencia de integración exitosa
 
 
 | :one: Simular tienda virtual  | :two: Agregar los campos |
 | :-- |:--|
-| <img src="./evidenciaImagenes/imagen 1.png" />    | <img src="./evidenciaImagenes/imagen 22.png" />   |
+| <img src="./evidenciaImagenes/imagen 11.png" />    | <img src="./evidenciaImagenes/imagen 22.png" />   |
 | *Realizar maqueteado de prueba con HTML y CSS* | *Llenar los campos obligatorios* |
 
 
 | :three: Seleccionar Banco  | :four: Ingresar con RUT |
 | :-- |:--|
-| <img src="./evidenciaImagenes/imagen 33.png" />    | <img src="./evidenciaImagenes/imagen 4.png" />   |
+| <img src="./evidenciaImagenes/imagen 33.png" />    | <img src="./evidenciaImagenes/imagen 44.png" />   |
 | *Para modo desarrollador seleccionar DemoBank* | *Usar RUT ficticio* |
 
 
