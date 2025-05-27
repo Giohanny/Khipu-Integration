@@ -19,31 +19,39 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 
 1. Clonar este repositorio
 2. Abrir el archivo `index.html` en el navegador
-3. Estructura del proyecto
+3. Estructura del proyecto:
+
+```
+├── index.html          # Maqueteado de tienda virtual
+├── fetchAPI.js         # Llamado al API Khipu
+├── style.css           # Estilos CSS
+├── evidenciaImagenes   # Imagenes de apoyo 
+└── README.md          
+```
 
 ## Evidencia de integración exitosa
 
 
 | :one: Simular tienda virtual  | :two: Agregar los campos |
 | :-- |:--|
-| ![](https://i.ibb.co/RGBdksQQ/imagen-1.png)    | ![](https://i.ibb.co/TDMtFk8B/imagen-22.png)    |
+| <img src="./evidenciaImagenes/imagen 1.PNG" />    | <img src="./evidenciaImagenes/imagen 22.PNG" />   |
 | *Realizar maqueteado de prueba con HTML y CSS* | *Llenar los campos obligatorios* |
 
 
 | :three: Seleccionar Banco  | :four: Ingresar con RUT |
 | :-- |:--|
-| ![](https://i.ibb.co/mCHpBzB9/imagen-33.png)    | ![](https://i.ibb.co/qFXW3Wqq/imagen-4.png)    |
+| <img src="./evidenciaImagenes/imagen 33.PNG" />    | <img src="./evidenciaImagenes/imagen 4.PNG" />   |
 | *Para modo desarrollador seleccionar DemoBank* | *Usar RUT ficticio* |
 
 
 | :five: Transferencia realizada  | :six: Pago Verificado por Khipu |
 | :-- |:--|
-| ![](https://i.ibb.co/rnTRZ3J/imagen-55.png)    | ![](https://i.ibb.co/WWJxqKH2/imagen-66.png)  |
+| <img src="./evidenciaImagenes/imagen 55.PNG" />    | <img src="./evidenciaImagenes/imagen 66.PNG" />   |
 | *Tener en cuenta el id de la transacción* | *Corroborar que se valide con el mismo id* |
 
 
 | :seven: Visualizar Cobro en dashboard   | :eight: Revisar correo del pago |
 | :-- |:--|
-| ![](https://i.ibb.co/Fq3Pntcp/imagen-77.png)  | ![](https://i.ibb.co/Nns8WW5J/imagen-88.png)    |
+| <img src="./evidenciaImagenes/imagen 77.PNG" />    | <img src="./evidenciaImagenes/imagen 88.PNG" />   |
 | *Bola verde para transacciones exitosas* | *Verificar id de la transacción* |
 
