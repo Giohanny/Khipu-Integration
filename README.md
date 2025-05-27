@@ -9,6 +9,7 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 <p align="center">
   <img src="./evidenciaImagenes/API key.png" height="400" />
 </p>
+<p align="center"><em>Creación de API Key en la plataforma de Khipu</em></p>
 
 ## 🚀 Pasos para la integración
 1. Simulación del sitio de compra. Maqueteado en HTML y CSS
@@ -18,6 +19,7 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 <p align="center">
   <img src="./evidenciaImagenes/verificacionPostman.PNG" height="400"/>
 </p>
+<p align="center"><em>Verificación de llamada API en Postman</em></p>
 
 
 3. Llamado de la url de Khipu para hacer las transacciones. Se encuentra en el parámetro `payment_url`
