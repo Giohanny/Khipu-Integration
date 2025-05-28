@@ -36,6 +36,7 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 ├── index.html          # Maqueteado de tienda virtual
 ├── fetchAPI.js         # Llamado al API Khipu
 ├── style.css           # Estilos CSS
+├── config.js           # Credenciales del API Key
 ├── evidenciaImagenes   # Imagenes de apoyo
 └── README.md          
 ```
@@ -43,25 +44,30 @@ Integración de Khipu usando la [API Khipu Pagos Instantáneos](https://docs.khi
 ## 📸 Evidencia de integración exitosa
 
 
-| :one: Simular tienda virtual  | :two: Agregar los campos |
+| :one: Simular tienda virtual  | :two: Validación de campos |
 | :-- |:--|
-| <img src="./evidenciaImagenes/imagen 11.png" />    | <img src="./evidenciaImagenes/imagen 22.png" />   |
-| *Realizar maqueteado de prueba con HTML y CSS* | *Llenar los campos obligatorios* |
+| <img src="./evidenciaImagenes/imagen 11.png" />    | <img src="./evidenciaImagenes/aa.png" />   |
+| *Realizar maqueteado de prueba con HTML y CSS* | *Llenar los campos: "Monto" menor a 5000 y "Mensaje" obligatorio* |
+
+| :three: Ingreso de datos  | :four: Modal de espera |
+| :-- |:--|
+| <img src="./evidenciaImagenes/imagen 22.png" />    | <img src="./evidenciaImagenes/bb.png" />   |
+| *Ingresar  los campos correctamente* | *Esperar la respuesta de la API de creación de pago* |
 
 
-| :three: Seleccionar Banco  | :four: Ingresar con RUT |
+| :five: Seleccionar Banco  | :six: Ingresar con RUT |
 | :-- |:--|
 | <img src="./evidenciaImagenes/imagen 33.png" />    | <img src="./evidenciaImagenes/imagen 44.png" />   |
 | *Para modo desarrollador seleccionar DemoBank* | *Usar RUT ficticio* |
 
 
-| :five: Transferencia realizada  | :six: Pago Verificado por Khipu |
+| :seven: Transferencia realizada  | :eight: Pago Verificado por Khipu |
 | :-- |:--|
 | <img src="./evidenciaImagenes/imagen 55.png" />    | <img src="./evidenciaImagenes/imagen 66.png" />   |
 | *Tener en cuenta el código de la transacción* | *Corroborar que se valide con el mismo código* |
 
 
-| :seven: Visualizar Cobro en dashboard   | :eight: Revisar correo del pago |
+| :nine: Visualizar Cobro en dashboard   | :one::zero: Revisar correo del pago |
 | :-- |:--|
 | <img src="./evidenciaImagenes/imagen 77.png" />    | <img src="./evidenciaImagenes/imagen 88.png" />   |
 | *Círculo verde para transacciones exitosas* | *Verificar código de la transacción* |

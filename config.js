@@ -1,0 +1,1 @@
+const KHIPU_API_KEY = "2c7e151f-ba32-43de-85ed-90a585830b26";

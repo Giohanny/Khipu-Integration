@@ -10,15 +10,14 @@ function realizarPago() {
         amount: Number(monto),
         currency: "CLP",
         subject: mensaje,
-        picture_url:"https://i.pinimg.com/736x/f5/30/bc/f530bc00471830befb8c7548aeff562d.jpg"
-
+        picture_url:"https://i.pinimg.com/736x/f5/30/bc/f530bc00471830befb8c7548aeff562d.jpg"   
     };
 
     fetch('https://payment-api.khipu.com/v3/payments', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json',
-        'x-api-key': '2c7e151f-ba32-43de-85ed-90a585830b26' 
+        'x-api-key': KHIPU_API_KEY
         },
         body: JSON.stringify(data)
     })
